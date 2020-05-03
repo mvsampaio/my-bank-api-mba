@@ -1,0 +1,23 @@
+{
+  "name": "my-bank-api",
+  "version": "1.0.0",
+  "description": "MBA study project to record an account on file",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Marcus Vinícius Sampaio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*.log",
+      "*.json"
+    ]
+  }
+}
